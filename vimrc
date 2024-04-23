@@ -11,8 +11,8 @@ set ignorecase
 
 " If you want to change indents, change tabstop and shiftwidth to the 
 " number of length for tab needed. 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set smarttab
 
 " This is if you want to change tab characters to spaces
