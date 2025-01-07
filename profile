@@ -25,7 +25,7 @@ parse_git_branch () {
 # GREEN="\[\033[0;32m\]"
 LGREEN="\[\033[1;32m\]"
 # BLUE="\[\033[0;34m\]"
-# LBLUE="\[\033[1;34m\]"
+LBLUE="\[\033[1;34m\]"
 # PURPLE="\[\033[0;35m\]"
 LPURPLE="\[\033[1;35m\]"
 # CYAN="\[\033[0;36m\]"
@@ -34,7 +34,7 @@ LCYAN="\[\033[1;36m\]"
 LYELLOW="\[\033[1;33m\]"
 # BROWN="\[\033[0;33m\]"
 # GRAY="\[\033[1;30m\]"
-# LGRAY="\[\033[0;37m\]"
+LGRAY="\[\033[0;37m\]"
 # WHITE="\[\033[1;37m\]"
 NON="\[\033[0m\]"
 
@@ -52,7 +52,7 @@ NON="\[\033[0m\]"
 #export PS1="$LCYAN\h:$LPURPLE\W $LRED\u$LGREEN\$(parse_git_branch)$LYELLOW\$ $NON"
 #export PS1="💾   $LCYAN\u:$LPURPLE\W$NON 💾 🚀 $LGREEN\$(parse_git_branch)$NON\$ "
 
-export PS1="💾  $LCYAN\u:$LPURPLE\W$LGREEN\$(parse_git_branch)$LYELLOW\$ $NON"
+export PS1="💾  $LCYAN\u@\h:$LPURPLE\W$LGREEN\$(parse_git_branch)$LYELLOW\$ $NON"
 
 # above PS1 without colors
 #export PS1="\h:\W \u\$ " # the old one looked without colors

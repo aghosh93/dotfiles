@@ -52,7 +52,7 @@ NON="\[\033[0m\]"
 #export PS1="$LCYAN\h:$LPURPLE\W $LRED\u$LGREEN\$(parse_git_branch)$LYELLOW\$ $NON"
 #export PS1="💾   $LCYAN\u:$LPURPLE\W$NON 💾 🚀 $LGREEN\$(parse_git_branch)$NON\$ "
 
-export PS1="💾  $LCYAN\u:$LPURPLE\W$LGREEN\$(parse_git_branch)$LYELLOW\$ $NON"
+export PS1="💾  $LCYAN\u@\h:$LPURPLE\W$LGREEN\$(parse_git_branch)$LYELLOW\$ $NON"
 
 # above PS1 without colors
 #export PS1="\h:\W \u\$ " # the old one looked without colors

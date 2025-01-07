@@ -27,4 +27,4 @@ set incsearch
 set mat=2
 
 syntax on
-colorscheme ron
+colorscheme desert

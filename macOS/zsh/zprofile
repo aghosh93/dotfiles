@@ -1,0 +1,8 @@
+# Environmental Variables
+
+typeset -U path
+path=('/opt/homebrew/bin' $path)
+path=("$HOME/.bin" $path)
+
+export PATH
+
