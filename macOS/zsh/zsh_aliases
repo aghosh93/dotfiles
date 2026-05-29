@@ -1,3 +1,4 @@
 alias ls="ls -G"
 alias ll="ls -Glh"
-
+alias check-path='echo $path | sed s/\ /\\n/g'
+alias ports='lsof -iTCP -sTCP:LISTEN -P -n'
